@@ -1,0 +1,86 @@
+@import url('https://font.gogleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+style
+  *{
+    margin:0;
+    padding:0;
+}
+.background-image {
+    background-image:url(./Images/Frida-Kahlo-2.jpg) ; 
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 1500px;
+    
+}
+style
+
+{
+    background-color: #000;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:  'Poppins', sans-serif;
+}
+body
+{
+    background:#000;
+    min-height: 50vh ;
+}
+header
+{
+    background-color: #000;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 15px 100px;
+}
+header li img
+
+{
+    width: 80px;
+    float: left;
+    margin-top: 5px;
+}
+header
+{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+header ul li
+{
+    align-items:center;
+    position: relative;
+    display: inline;
+    padding-left:50px;
+    list-style: none;
+}
+header ul li a
+{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #109da1;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.6s;
+    display: inline;
+}
+header li a:hover
+{
+    color:#5e9da1;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+
+
+

@@ -1,0 +1,126 @@
+@import url('https://font.gogleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+style
+  *{
+    margin:0;
+    padding:0;
+}
+.background-image {
+    background-image:url(./Images/Frida-Kahlo-2.jpg) ; 
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 1500px;
+    
+}
+style
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:  'Poppins', sans-serif;
+}
+body
+{
+    background: #000;
+    min-height: 50vh ;
+}
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.6s;
+padding: 15px 100px;
+}
+header li img
+
+{
+    width: 80px;
+    float: left;
+    margin-top: 5px;
+}
+header
+{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+header ul li
+{
+    align-items:center;
+    position: relative;
+    display: inline;
+    padding-left:50px;
+    list-style: none;
+}
+header ul li a
+{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #109da1;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.6s;
+    display: inline;
+}
+header li a:hover
+{
+    color:#5e9da1;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+h1
+{
+    color: #109da1;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 50px;;
+    margin-top: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+p
+{
+    color: #f4f7f3;
+    margin-left: 50px;
+    margin-right: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: medium;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    
+    justify-content: left;
+    text-align:left;
+    min-height: 100vh;
+
+}
+img
+{
+    float: right;
+    margin-right: 10%;
+    
+}
+img
+{
+    margin-right: 5%;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
