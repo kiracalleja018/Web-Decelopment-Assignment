@@ -5,14 +5,8 @@ style
     margin:0;
     padding:0;
 }
-.background-image {
-    background-image:url(./Images/Frida-Kahlo-2.jpg) ; 
-    background-size:cover;
-    background-repeat:no-repeat;
-    height: 100vh;
-    width: 1500px;
-    
-}
+
+
 style
 
 {
@@ -28,7 +22,7 @@ body
 }
 header
 {
-position: fixed;
+position: relative;
 top: 0;
 left: 0;
 width: 80%;
@@ -45,6 +39,26 @@ header li img
     float: left;
     margin-top: 5px;
 }
+
+/*************
+PAINTINGS 
+*************/
+
+
+
+.headerImgPaintings{
+    width: 80px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+/*************
+PAINTINGS - END
+*************/
+
+
+
 header
 {
     position: relative;
@@ -55,7 +69,7 @@ header
 }
 header ul li
 {
-    align-items:center;
+    align-items: center;
     position: relative;
     display: inline;
     padding-left:50px;
