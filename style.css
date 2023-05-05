@@ -49,9 +49,6 @@ body
 
 }
 
-.topnav a{
-    
-}
 
 
 /*
@@ -195,4 +192,24 @@ img
 /*************
 BIOGRAPHY END-
 *************/
+
+/************
+PAINTINGS START-
+*************/
+
+.img-fluid
+{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+/*************
+PAINTINGS END-
+/*************/
+
+/*************
+IMAGES START-
+/*************/
+
+
 
