@@ -6,7 +6,7 @@ style
     padding:0;
 }
 .background-image {
-    background-image:url(./Images/Frida-Kahlo-2.jpg) ; 
+    background-image:url(./Images/edited\ 2.png) ; 
     background-size:cover;
     background-repeat:no-repeat;
     height: 100vh;
@@ -180,14 +180,19 @@ body{
 img
 {
     float: right;
-    margin-right: 10%;
+    
     
 }
 img
 {
-    margin-right: 5%;
+    
     width: 400px;
     
+}
+.img-fluid
+{
+    margin-right: 10%;
+    margin-right: 5%;
 }
 /*************
 BIOGRAPHY END-
